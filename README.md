@@ -85,7 +85,7 @@ Provides a detailed breakdown of unemployment by borough for a selected year.
 - **Report page tooltip:** Hovering over a borough in the bar chart shows a line chart comparing that borough's unemployment rate with London's across all years.
 - **Top N slicer:** A numeric range parameter (1–15) lets users choose how many of the highest-unemployment boroughs to highlight. The matching bars in the chart turn red, so they stand out at a glance.
 - **Treemap and donut chart:** Show how the total number of unemployed people is split across boroughs. Buttons let users switch between the two views.
-- When we hover over a specof borogh in the bar chart, a tooltip appears which shows a line chart that comapres the unemplouemnt rate of the secifc bryh with unempterate pf london over all years
+
 > **Power BI concepts used:** Bar chart, Line chart, Treemap, Donut chart, Cards, Smart Narrative (dynamic value), Constant line, Conditional formatting (bars), Slicers, Numeric range parameter (Top N), Dynamic title, Bookmarks & buttons, Selection pane, Tooltip page, DAX measures (for London's Unemployment rate, London's number, Borough unemployment rate), Calculated table (date table built from the years in the data)
 
 ### Page 3: 2025 vs 2024
@@ -96,7 +96,7 @@ Shows the change in unemployment rate between 2024 and 2025, in **percentage poi
 ![2025 vs 2024 Page](images/page_3.png)
 
 #### Key Features
-- **Filled map:** Colours each borough by its change in unemployment rate. Red shows an increase and green shows a decrease, and deeper shades show larger changes.
+- **Azure map:** Colours each borough by its change in unemployment rate. Red shows an increase and green shows a decrease, and deeper shades show larger changes.
 - **Table with conditional icons:** Lists the %pt change for each borough and for London. A red up arrow marks an increase in unemployment and a green down arrow marks a decrease.
 - **KPI cards (7):**
   - Borough with the **highest** unemployment rate, and its rate
@@ -106,7 +106,7 @@ Shows the change in unemployment rate between 2024 and 2025, in **percentage poi
   - **2025 unemployment rate:** shows London's rate by default, or the selected borough's rate when a borough is selected
 - **Consistent colour scheme:** Red for increases and green for decreases across the map, table and cards.
 
-> **Power BI concepts used:** Filled map, Table, Cards, Conditional formatting (diverging colour scale on map, icons in table), DAX measures (year-on-year change in %pt, highest/lowest borough, count of boroughs increased/decreased, dynamic London/borough rate)
+> **Power BI concepts used:** Azure map, Table, Cards, Conditional formatting (diverging colour scale on map, icons in table), DAX measures (year-on-year change in %pt, highest/lowest borough, count of boroughs increased/decreased, dynamic London/borough rate)
 
 ### Page 4: Unemployment Gap
 Compares unemployment rates between population groups over time:
