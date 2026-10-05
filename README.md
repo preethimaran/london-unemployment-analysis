@@ -60,7 +60,7 @@ A vertical navigation bar runs down the left-hand side of every page, so users c
 ### Page 1: Overview
 Provides an overview of the **Unemployment Rate**, **Employment Rate** and **Economic Inactivity Rate** for London as a whole, with the option to drill down into a specific borough for comparison.
 
-![Overview Page](Images/Page 1.png)
+![Overview Page](images/page_1.png)
 
 #### Key Features
 - **KPI cards:** Show all three metrics for London alongside the selected borough for quick comparison. If no borough is selected, the borough cards stay blank.
@@ -74,7 +74,7 @@ Provides an overview of the **Unemployment Rate**, **Employment Rate** and **Eco
 ### Page 2: Borough-Level Unemployment Statistics
 Provides a detailed breakdown of unemployment by borough for a selected year.
 
-![Borough Statistics Page](images/borough_statistics.png)
+![Borough Statistics Page](images/page_2.png)
 
 #### Key Features
 - **Year drop-down slicer:** Selects the year to analyse.
@@ -92,7 +92,7 @@ Shows the change in unemployment rate between 2024 and 2025, in **percentage poi
 
 *Change (%pt) = 2025 unemployment rate − 2024 unemployment rate*
 
-![2025 vs 2024 Page](images/2025_vs_2024.png)
+![2025 vs 2024 Page](images/page_3.png)
 
 #### Key Features
 - **Filled map:** Colours each borough by its change in unemployment rate. Red shows an increase and green shows a decrease, and deeper shades show larger changes.
@@ -112,7 +112,7 @@ Compares unemployment rates between population groups over time:
 - **Ethnic minority vs White** residents
 - **UK-born vs non-UK-born** residents
 
-![Unemployment Gap Page](images/unemployment_gap.png)
+![Unemployment Gap Page](images/page_4.png)
 
 #### Key Features
 - **Two line charts:** One compares unemployment rates for ethnic minority and White residents, and the other compares UK-born and non-UK-born residents, making the gap between each pair easy to see over time.
@@ -123,7 +123,7 @@ Compares unemployment rates between population groups over time:
 ### Page 5: Unemployment Rate Heat Map
 A matrix with boroughs as column headers, years as row headers and the unemployment rate as values, showing how each borough's position has changed over time.
 
-![Heat Map Page](images/heat_map.png)
+![Heat Map Page](images/page_5.png)
 
 #### Key Features
 - **Matrix heat map:** Each cell is coloured by the borough's unemployment rank for that year, using conditional background formatting. Rank 1 means the highest unemployment rate. Cells range from **dark red** (rank 1, highest unemployment) to **light green** (lowest unemployment), so boroughs that are consistently high or low stand out as solid bands of colour.
@@ -134,7 +134,7 @@ A matrix with boroughs as column headers, years as row headers and the unemploym
 ### Page 6: London vs Rest of England
 Compares London's unemployment rate with the rest of England over time.
 
-![London vs Rest of England Page](images/london_vs_rest_of_england.png)
+![London vs Rest of England Page](images/page_6.png)
 
 #### Key Features
 - **Full-page line chart:** A simple, uncluttered view that makes it easy to compare the two trends over the full period.
@@ -145,7 +145,7 @@ Compares London's unemployment rate with the rest of England over time.
 ### Page 7: Borough vs London Tooltip (Hidden Page)
 A hidden report page used as the tooltip for the bar chart on Page 2. When you hover over a borough, it shows a line chart comparing that borough's unemployment rate with London's across all years.
 
-![Tooltip Page](images/tooltip.png)
+![Tooltip Page](images/page_7_tooltip_hidden.png)
 
 > **Power BI concepts used:** Report page tooltip, Hidden page, Line chart
 
