@@ -115,4 +115,13 @@ Compares unemployment rates between population groups over time:
 
 > **Power BI concepts used:** Line charts, Hierarchy slicer, DAX measures
 
-### Page 5: Heat Map of Unemployment Rate
+### Page 5: Unemployment Rate Heat Map
+A matrix with boroughs as column headers, years as row headers and the unemployment rate as values, showing how each borough's position has changed over time.
+
+![Heat Map Page](images/heat_map.png)
+
+#### Key Features
+- **Matrix heat map:** Each cell is coloured by the borough's unemployment rank for that year, using conditional background formatting. Rank 1 means the highest unemployment rate. Cells range from **dark red** (rank 1, highest unemployment) to **light green** (lowest unemployment), so boroughs that are consistently high or low stand out as solid bands of colour.
+- **Missing data handling:** Cells with no data are shaded white, so gaps aren't mistaken for real values.
+
+> **Power BI concepts used:** Matrix, Conditional formatting (background colour), DAX measures (unemployment rank)
