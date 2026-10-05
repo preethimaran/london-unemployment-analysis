@@ -56,6 +56,8 @@ Provides an overview of the **Unemployment Rate**, **Employment Rate** and **Eco
 - **Latest-year values:** The cards always show the metrics for the most recent year in the selected range, because averaging rates across several years would not be meaningful.
 - **Consistent colour coding:** Each metric has its own colour across all cards — **Employment Rate** in blue, **Unemployment Rate** in red and **Economic Inactivity Rate** in amber — making them easy to tell apart at a glance.
 
+> **Power BI concepts used:** Cards, Hierarchy slicer, Year range slider (Between slicer), DAX measures (latest-year values within the selected range), Conditional display using DAX (borough cards blank when no borough is selected), Consistent colour formatting
+
 ### Page 2: Borough-Level Unemployment Statistics
 Provides a detailed breakdown of unemployment by borough for a selected year.
 
@@ -70,5 +72,25 @@ Provides a detailed breakdown of unemployment by borough for a selected year.
 - **Top N slicer:** A numeric range parameter (1–15) lets users choose how many of the highest-unemployment boroughs to highlight. The matching bars in the chart turn red, so they stand out at a glance.
 - **Treemap and donut chart:** Show how the total number of unemployed people is split across boroughs. Buttons let users switch between the two views.
 - When we hover over a specof borogh in the bar chart, a tooltip appears which shows a line chart that comapres the unemplouemnt rate of the secifc bryh with unempterate pf london over all years
-> **Power BI concepts used:** Bar chart, Line chart, Treemap, Donut chart, Cards, Smart Narrative (dynamic value), Constant line, Conditional formatting (bars), Slicers, Numeric range parameter (Top N), Dynamic title, Bookmarks & buttons, Selection pane, Tooltip page, DAX measures, DAX calculated columns, Calculated tables
+> **Power BI concepts used:** Bar chart, Line chart, Treemap, Donut chart, Cards, Smart Narrative (dynamic value), Constant line, Conditional formatting (bars), Slicers, Numeric range parameter (Top N), Dynamic title, Bookmarks & buttons, Selection pane, Tooltip page, DAX measures (for London's Unemployment rate, London's number, Borough unemployment rate), Calculated table (date table built from the years in the data)
+
+### Page 3: 2025 vs 2024
+Shows the change in unemployment rate between 2024 and 2025, in **percentage points (%pt)**, for each borough and for London as a whole.
+
+*Change (%pt) = 2025 unemployment rate − 2024 unemployment rate*
+
+![2025 vs 2024 Page](images/2025_vs_2024.png)
+
+#### Key Features
+- **Filled map:** Colours each borough by its change in unemployment rate. Red shows an increase and green shows a decrease, and deeper shades show larger changes.
+- **Table with conditional icons:** Lists the %pt change for each borough and for London. A red up arrow marks an increase in unemployment and a green down arrow marks a decrease.
+- **KPI cards (7):**
+  - Borough with the **highest** unemployment rate, and its rate
+  - Borough with the **lowest** unemployment rate, and its rate
+  - Number of boroughs where unemployment **increased**
+  - Number of boroughs where unemployment **decreased**
+  - **2025 unemployment rate:** shows London's rate by default, or the selected borough's rate when a borough is selected
+- **Consistent colour scheme:** Red for increases and green for decreases across the map, table and cards.
+
+> **Power BI concepts used:** Filled map, Table, Cards, Conditional formatting (diverging colour scale on map, icons in table), DAX measures (year-on-year change in %pt, highest/lowest borough, count of boroughs increased/decreased, dynamic London/borough rate)
 
