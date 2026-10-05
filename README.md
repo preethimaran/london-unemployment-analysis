@@ -27,5 +27,10 @@ Unemployment rates have been **broadly similar** for people born in the UK and p
 ### 6. How does London unemplyment rate compare with the rest of england?
 For all years the **unemployment rate of London is higher than the unemployment rate of the rest of England.**
 
-## 
+## Tech Stack
+- **Power BI Desktop**
+- **Power Query**
+- **Power BI Services**
+- **DAX** for calculated measures, calculated columns, calculated tables and time intelligence.
+- **Data Modelling**
 
