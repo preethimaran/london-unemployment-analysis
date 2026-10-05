@@ -52,6 +52,11 @@ For all years the **unemployment rate of London is higher than the unemployment 
 
 ## Power BI Dashboard
 
+### Navigation Bar
+A vertical navigation bar runs down the left-hand side of every page, so users can move between pages easily. Hidden pages, such as the tooltip page, are left out of the navigation.
+
+> **Power BI concepts used:** Page navigator
+
 ### Page 1: Overview
 Provides an overview of the **Unemployment Rate**, **Employment Rate** and **Economic Inactivity Rate** for London as a whole, with the option to drill down into a specific borough for comparison.
 
@@ -125,3 +130,22 @@ A matrix with boroughs as column headers, years as row headers and the unemploym
 - **Missing data handling:** Cells with no data are shaded white, so gaps aren't mistaken for real values.
 
 > **Power BI concepts used:** Matrix, Conditional formatting (background colour), DAX measures (unemployment rank)
+
+### Page 6: London vs Rest of England
+Compares London's unemployment rate with the rest of England over time.
+
+![London vs Rest of England Page](images/london_vs_rest_of_england.png)
+
+#### Key Features
+- **Full-page line chart:** A simple, uncluttered view that makes it easy to compare the two trends over the full period.
+- **Rest of England calculation:** Calculated from the published England and London totals (England minus London), so London is not counted on both sides of the comparison.
+
+> **Power BI concepts used:** Line chart, DAX measures (Rest of England unemployment rate, using the Geography column to separate regional and national totals)
+
+### Page 7: Borough vs London Tooltip (Hidden Page)
+A hidden report page used as the tooltip for the bar chart on Page 2. When you hover over a borough, it shows a line chart comparing that borough's unemployment rate with London's across all years.
+
+![Tooltip Page](images/tooltip.png)
+
+> **Power BI concepts used:** Report page tooltip, Hidden page, Line chart
+
