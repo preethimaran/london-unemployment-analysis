@@ -37,10 +37,18 @@ For all years the **unemployment rate of London is higher than the unemployment 
 ## Data Source
 [Office for National Statistics (ONS)](https://data.london.gov.uk/dataset/economic-activity-rate-employment-rate-and-unemployment-rate-by--2r8lm)
 
-## Data Preparation Using Power Query
-1. After importing the excel workbook using Excel.Workbook(), use Table.ExpandTableColumn to get the data from sheets numbered 2005 to 2025 into a single file
-2. With the help of Trandfoem, Pivot, Unpivit, split columns an dmerge transform the data to the most suitable format desired
-3. Close and Apply the changes
+## Data Preparation using Power Query
+1. Imported the Excel workbook using `Excel.Workbook()` and filtered it to the sheets for 2005–2025, excluding the metadata sheet.
+2. Used `Table.ExpandTableColumn` to combine the data from all year sheets into a single table.
+3. Reshaped the data into a long (tidy) format, with one row per borough, year and metric, using Transpose, Pivot/Unpivot, Split Column and Merge Columns.
+4. Added a **Geography** column to classify each row by level:
+   - **London** for all individual boroughs
+   - **Region-London** for the London total row
+   - **Country-England** for the England total row
+
+   This separates borough-level data from the published regional and national totals, so aggregate rows are never double-counted, and supports the hierarchy slicer and London vs England comparisons.
+5. Applied the changes to load the data into the model (Close & Apply).
+6. Created a calculated date table from the years in the data and related it to the main table.
 
 ## Power BI Dashboard
 
