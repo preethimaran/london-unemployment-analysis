@@ -102,3 +102,17 @@ Shows the change in unemployment rate between 2024 and 2025, in **percentage poi
 
 > **Power BI concepts used:** Filled map, Table, Cards, Conditional formatting (diverging colour scale on map, icons in table), DAX measures (year-on-year change in %pt, highest/lowest borough, count of boroughs increased/decreased, dynamic London/borough rate)
 
+### Page 4: Unemployment Gap
+Compares unemployment rates between population groups over time:
+- **Ethnic minority vs White** residents
+- **UK-born vs non-UK-born** residents
+
+![Unemployment Gap Page](images/unemployment_gap.png)
+
+#### Key Features
+- **Two line charts:** One compares unemployment rates for ethnic minority and White residents, and the other compares UK-born and non-UK-born residents, making the gap between each pair easy to see over time.
+- **Hierarchical slicer:** Lets you view the comparison for the whole of London or a specific borough.
+
+> **Power BI concepts used:** Line charts, Hierarchy slicer, DAX measures
+
+### Page 5: Heat Map of Unemployment Rate
