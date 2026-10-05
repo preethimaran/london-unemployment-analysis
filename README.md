@@ -150,3 +150,10 @@ A hidden report page used as the tooltip for the bar chart on Page 2. When you h
 
 > **Power BI concepts used:** Report page tooltip, Hidden page, Line chart
 
+## How to Use
+1. Download London_Unemployment_v2.pbix
+2. Open it in Power BI Desktop
+
+## Author
+**Preethi Maran**
+[LinkedIn](https://www.linkedin.com/in/preethi-maran-44b9a91b8/) · [GitHub](https://github.com/preethimaran)
