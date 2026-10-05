@@ -22,7 +22,7 @@ Ethnic minority groups have **consistently had higher unemployment rates** than 
 ### 5. Is there a difference in unemployment rates between UK-born and non-UK-born residents?
 Unemployment rates have been **broadly similar** for people born in the UK and people born outside the UK over the years.
 
-> **Exception:** In 2010, there was a large gap. UK-born residents had a much higher unemployment rate (**40.42%**) than non-UK-born residents (**8.17%**).
+> **Exception:** In 2010, there was a large gap. UK-born residents had a much higher unemployment rate than non-UK-born residents.
 
 ## 
 
