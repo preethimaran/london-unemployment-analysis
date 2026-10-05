@@ -50,7 +50,6 @@ For all years the **unemployment rate of London is higher than the unemployment 
 5. Applied the changes to load the data into the model (Close & Apply).
 6. Created a calculated date table from the years in the data and related it to the main table.
 
-![Data Modelling](images/data_modelling.png)
 
 ## Power BI Dashboard
 
