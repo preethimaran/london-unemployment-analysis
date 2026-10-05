@@ -60,7 +60,7 @@ A vertical navigation bar runs down the left-hand side of every page, so users c
 ### Page 1: Overview
 Provides an overview of the **Unemployment Rate**, **Employment Rate** and **Economic Inactivity Rate** for London as a whole, with the option to drill down into a specific borough for comparison.
 
-![Overview Page](images/overview.png)
+![Overview Page](Images/Page 1.png)
 
 #### Key Features
 - **KPI cards:** Show all three metrics for London alongside the selected borough for quick comparison. If no borough is selected, the borough cards stay blank.
