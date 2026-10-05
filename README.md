@@ -11,7 +11,7 @@ An interactive Power BI dashboard analysing unemployment trends across London's 
 ### 2. Which boroughs consistently have low levels of unemployment?
 **Bromley, Richmond upon Thames, Kingston upon Thames, Havering and Wandsworth** have consistently had low levels of unemployment over the years.
 
-> **Notable trend:** Richmond upon Thames has seen a steady rise in unemployment since 2020.
+> **Notable trend:** Despite historically low unemployment, Richmond upon Thames has seen a steady rise since 2020, and in 2025 it had the **fourth-highest** unemployment rate in London.
 
 ### 3. Has the unemployment rate gone up or down for the year 2025 compared to 2024?
 Compared to 2024, London's unemployment rate has **risen by 2.03 percentage points** for 2025, with unemployment increasing in **26 of the 33 boroughs**.
