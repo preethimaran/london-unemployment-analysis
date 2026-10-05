@@ -25,7 +25,7 @@ Unemployment rates have been **broadly similar** for people born in the UK and p
 > **Exception:** In 2010, there was a large gap. UK-born residents had a much higher unemployment rate than non-UK-born residents.
 
 ### 6. How does London unemplyment rate compare with the rest of england?
-For all years the unemployment rate of London is higher than the unemployment rate of the rest of England.
+For all years the **unemployment rate of London is higher than the unemployment rate of the rest of England.**
 
 ## 
 
