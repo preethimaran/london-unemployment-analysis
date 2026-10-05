@@ -42,7 +42,7 @@ For all years the **unemployment rate of London is higher than the unemployment 
 2. With the help of Trandfoem, Pivot, Unpivit, split columns an dmerge transform the data to the most suitable format desired
 3. Close and Apply the changes
 
-## 📊 Power BI Dashboard
+## Power BI Dashboard
 
 ### Page 1: Overview
 Provides an overview of the **Unemployment Rate**, **Employment Rate** and **Economic Inactivity Rate** for London as a whole, with the option to drill down into a specific borough for comparison.
@@ -55,3 +55,16 @@ Provides an overview of the **Unemployment Rate**, **Employment Rate** and **Eco
 - **Year range slider:** Filters the dashboard to a chosen range of years.
 - **Latest-year values:** The cards always show the metrics for the most recent year in the selected range, because averaging rates across several years would not be meaningful.
 - **Consistent colour coding:** Each metric has its own colour across all cards — **Employment Rate** in blue, **Unemployment Rate** in red and **Economic Inactivity Rate** in amber — making them easy to tell apart at a glance.
+
+### Page 2: Borough-Level Unemployment Statistics
+Provides a detailed breakdown of unemployment by borough for a selected year.
+
+![Borough Statistics Page](images/borough_statistics.png)
+
+#### Key Features
+- **Year drop-down slicer:** Selects the year to analyse.
+- **Dynamic title:** The page heading updates automatically to show the selected year.
+- **KPI cards:** Show London's unemployment rate and the total number of unemployed people in London for the selected year.
+- **Bar chart with London benchmark:** Shows the unemployment rate for every borough, with a constant line marking the London-wide rate. This makes it easy to see which boroughs are above or below the London average.
+- **Top N slicer:** A numeric range parameter (1–15) lets users choose how many of the highest-unemployment boroughs to highlight. The matching bars in the chart turn red, so they stand out at a glance.
+- **Treemap and donut chart:** Show how the total number of unemployed people is split across boroughs. Buttons let users switch between the two views.
