@@ -62,7 +62,7 @@ Provides an overview of the **Unemployment Rate**, **Employment Rate** and **Eco
 - **Hierarchical slicer:** Lets you select either the whole of London or a specific borough.
 - **Year range slider:** Filters the dashboard to a chosen range of years.
 - **Latest-year values:** The cards always show the metrics for the most recent year in the selected range, because averaging rates across several years would not be meaningful.
-- **Consistent colour coding:** Each metric has its own colour across all cards — **Employment Rate** in blue, **Unemployment Rate** in red and **Economic Inactivity Rate** in amber — making them easy to tell apart at a glance.
+- **Consistent colour coding:** Each metric has its own colour across all cards — **Employment Rate** in blue, **Unemployment Rate** in red and **Economic Inactivity Rate** in amber, making them easy to tell apart at a glance.
 
 > **Power BI concepts used:** Cards, Hierarchy slicer, Year range slider (Between slicer), DAX measures (latest-year values within the selected range), Conditional display using DAX (borough cards blank when no borough is selected), Consistent colour formatting
 
