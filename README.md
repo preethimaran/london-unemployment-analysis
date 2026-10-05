@@ -37,3 +37,21 @@ For all years the **unemployment rate of London is higher than the unemployment 
 ## Data Source
 [Office for National Statistics (ONS)](https://data.london.gov.uk/dataset/economic-activity-rate-employment-rate-and-unemployment-rate-by--2r8lm)
 
+## Data Preparation Using Power Query
+1. After importing the excel workbook using Excel.Workbook(), use Table.ExpandTableColumn to get the data from sheets numbered 2005 to 2025 into a single file
+2. With the help of Trandfoem, Pivot, Unpivit, split columns an dmerge transform the data to the most suitable format desired
+3. Close and Apply the changes
+
+## 📊 Power BI Dashboard
+
+### Page 1: Overview
+Provides an overview of the **Unemployment Rate**, **Employment Rate** and **Economic Inactivity Rate** for London as a whole, with the option to drill down into a specific borough for comparison.
+
+![Overview Page](images/overview.png)
+
+#### Key Features
+- **KPI cards:** Show all three metrics for London alongside the selected borough for quick comparison. If no borough is selected, the borough cards stay blank.
+- **Hierarchical slicer:** Lets you select either the whole of London or a specific borough.
+- **Year range slider:** Filters the dashboard to a chosen range of years.
+- **Latest-year values:** The cards always show the metrics for the most recent year in the selected range, because averaging rates across several years would not be meaningful.
+- **Consistent colour coding:** Each metric has its own colour across all cards — **Employment Rate** in blue, **Unemployment Rate** in red and **Economic Inactivity Rate** in amber — making them easy to tell apart at a glance.
