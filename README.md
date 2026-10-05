@@ -63,8 +63,12 @@ Provides a detailed breakdown of unemployment by borough for a selected year.
 
 #### Key Features
 - **Year drop-down slicer:** Selects the year to analyse.
-- **Dynamic title:** The page heading updates automatically to show the selected year.
+- **Dynamic title:** Built with a Smart Narrative visual whose dynamic value picks up the year chosen in the slicer, so the page heading always shows the selected year.
 - **KPI cards:** Show London's unemployment rate and the total number of unemployed people in London for the selected year.
 - **Bar chart with London benchmark:** Shows the unemployment rate for every borough, with a constant line marking the London-wide rate. This makes it easy to see which boroughs are above or below the London average.
+- **Report page tooltip:** Hovering over a borough in the bar chart shows a line chart comparing that borough's unemployment rate with London's across all years.
 - **Top N slicer:** A numeric range parameter (1–15) lets users choose how many of the highest-unemployment boroughs to highlight. The matching bars in the chart turn red, so they stand out at a glance.
 - **Treemap and donut chart:** Show how the total number of unemployed people is split across boroughs. Buttons let users switch between the two views.
+- When we hover over a specof borogh in the bar chart, a tooltip appears which shows a line chart that comapres the unemplouemnt rate of the secifc bryh with unempterate pf london over all years
+> **Power BI concepts used:** Bar chart, Line chart, Treemap, Donut chart, Cards, Smart Narrative (dynamic value), Constant line, Conditional formatting (bars), Slicers, Numeric range parameter (Top N), Dynamic title, Bookmarks & buttons, Selection pane, Tooltip page, DAX measures, DAX calculated columns, Calculated tables
+
