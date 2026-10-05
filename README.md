@@ -13,8 +13,8 @@ An interactive Power BI dashboard analysing unemployment trends across London's 
 
 > **Notable trend:** Richmond upon Thames has seen a steady rise in unemployment since 2020.
 
-### 3. Has the unemployment rate gone up or down compared to 2024?
-Compared to 2024, London's unemployment rate has **risen by 2.03 percentage points**, with unemployment increasing in **26 of the 33 boroughs**.
+### 3. Has the unemployment rate gone up or down for the year 2025 compared to 2024?
+Compared to 2024, London's unemployment rate has **risen by 2.03 percentage points** for 2025, with unemployment increasing in **26 of the 33 boroughs**.
 
 ### 4. Is there a difference in unemployment rates by ethnicity?
 Ethnic minority groups have **consistently had higher unemployment rates** than White groups over the years. The only exceptions were **2010 and 2023**.
