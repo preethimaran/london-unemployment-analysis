@@ -6,7 +6,7 @@ An interactive Power BI dashboard analysing unemployment trends across London's 
 ### 1. Which boroughs consistently have high levels of unemployment?
 **Tower Hamlets, Barking and Dagenham, Newham, Southwark and Brent** have consistently had high levels of unemployment over the years.
 
-> **Notable trend:** Newham has improved significantly in recent years, with much lower unemployment levels. 2024 is the only exception.
+> **Notable trend:** Newham has improved significantly in recent years, with much lower unemployment levels (2024 is the only exception to this).
 
 ### 2. Which boroughs consistently have low levels of unemployment?
 **Bromley, Richmond upon Thames, Kingston upon Thames, Havering and Wandsworth** have consistently had low levels of unemployment over the years.
